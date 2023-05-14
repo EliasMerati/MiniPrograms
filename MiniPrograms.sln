@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNetworkResources", "WorkingWithNetworkResources\WorkingWithNetworkResources.csproj", "{49AE952F-82D6-4B0A-B467-FBE3782C2D38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithReflections", "WorkingWithReflections\WorkingWithReflections.csproj", "{D138E1BF-494A-4DEA-936B-7759F15FA538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{49AE952F-82D6-4B0A-B467-FBE3782C2D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49AE952F-82D6-4B0A-B467-FBE3782C2D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49AE952F-82D6-4B0A-B467-FBE3782C2D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
