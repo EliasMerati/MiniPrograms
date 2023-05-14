@@ -24,7 +24,7 @@ IPHostEntry entry = Dns.GetHostEntry(Uri.Host);
 WriteLine($"{entry.HostName} Has The Folowing Ip Addresses :");
 foreach (IPAddress address in entry.AddressList)
 {
-    Write($"{address}");
+    Write($"{address + "\n"}");
 }
 
 ///////////////////////////////////////// ping site
