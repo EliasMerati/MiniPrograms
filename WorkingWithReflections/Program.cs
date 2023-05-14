@@ -1,6 +1,5 @@
 ﻿using System.Reflection;
-using System.Linq;
-using System.Runtime.CompilerServices;
+
 using static System.Console;
 
 WriteLine("Assembly MetaData:");
