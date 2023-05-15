@@ -11,7 +11,8 @@ namespace WorkingWithFileSystems
     {
         static void Main(string[] args)
         {
-            OutputFileSystemInfo();
+            //OutputFileSystemInfo();
+            WorkWithDrives();
         }
         static void OutputFileSystemInfo()
         {
@@ -26,6 +27,23 @@ namespace WorkingWithFileSystems
             WriteLine($"{GetFolderPath(SpecialFolder.MyDocuments),-33}{GetFolderPath(SpecialFolder.MyDocuments)}");
             WriteLine($"{GetFolderPath(SpecialFolder.ApplicationData),-33}{GetFolderPath(SpecialFolder.ApplicationData)}");
             WriteLine($"{GetFolderPath(SpecialFolder.Personal),-33}{GetFolderPath(SpecialFolder.Personal)}");
+        }
+
+        static void WorkWithDrives()
+        {
+            WriteLine("{\"NAME\",-30} | {\"TYPE\",-10} | {\"FORMAT\",-7} | {\"SIZE (BYTES)\",18} | {\"FREE SPACE\",18}");
+            foreach (DriveInfo drive in DriveInfo.GetDrives())
+            {
+                if (drive.IsReady)
+                {
+                    WriteLine($"{drive.Name,-30}{drive.DriveType,-10}{drive.DriveFormat,-7}{drive.TotalSize,18:N0}{drive.TotalFreeSpace,18:N0}");
+                }
+                else
+                {
+                    WriteLine($"{drive.Name,-30}{drive.DriveType,-10}");
+                }
+
+            }
         }
     }
 }
