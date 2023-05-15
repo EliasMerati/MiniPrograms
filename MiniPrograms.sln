@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNetworkResources", "WorkingWithNetworkResources\WorkingWithNetworkResources.csproj", "{49AE952F-82D6-4B0A-B467-FBE3782C2D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithNetworkResources", "WorkingWithNetworkResources\WorkingWithNetworkResources.csproj", "{49AE952F-82D6-4B0A-B467-FBE3782C2D38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithReflections", "WorkingWithReflections\WorkingWithReflections.csproj", "{D138E1BF-494A-4DEA-936B-7759F15FA538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithReflections", "WorkingWithReflections\WorkingWithReflections.csproj", "{D138E1BF-494A-4DEA-936B-7759F15FA538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithImages", "WorkingWithImages\WorkingWithImages.csproj", "{8BD6EABC-1510-484A-B1EE-42B0364EF361}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D138E1BF-494A-4DEA-936B-7759F15FA538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD6EABC-1510-484A-B1EE-42B0364EF361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD6EABC-1510-484A-B1EE-42B0364EF361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD6EABC-1510-484A-B1EE-42B0364EF361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD6EABC-1510-484A-B1EE-42B0364EF361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
