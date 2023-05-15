@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithImages", "Workin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internationalization", "Internationalization\Internationalization.csproj", "{1D124A18-3A7C-4AE5-999A-F67E0AF193E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFileSystems", "WorkingWithFileSystems\WorkingWithFileSystems.csproj", "{50B67024-B30C-4D66-AA80-D884D9A3E2CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1D124A18-3A7C-4AE5-999A-F67E0AF193E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D124A18-3A7C-4AE5-999A-F67E0AF193E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D124A18-3A7C-4AE5-999A-F67E0AF193E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B67024-B30C-4D66-AA80-D884D9A3E2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B67024-B30C-4D66-AA80-D884D9A3E2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B67024-B30C-4D66-AA80-D884D9A3E2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B67024-B30C-4D66-AA80-D884D9A3E2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
